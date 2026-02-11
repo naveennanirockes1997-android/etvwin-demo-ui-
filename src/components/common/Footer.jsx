@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className="bg-background py-12 px-4 md:px-12 border-t border-white/5">
       <div className="container mx-auto">
         <div className="flex gap-6 mb-8 items-center">
-          <a href="#" className="opacity-70 hover:opacity-100 transition-opacity"><img src="/src/assets/images/facebook.png" alt="Facebook" className="w-6 h-6" /></a>
-          <a href="#" className="opacity-70 hover:opacity-100 transition-opacity"><img src="/src/assets/images/insta.png" alt="Instagram" className="w-6 h-6" /></a>
-          <a href="#" className="opacity-70 hover:opacity-100 transition-opacity"><img src="/src/assets/images/twiter.png" alt="Twitter" className="w-6 h-6" /></a>
+          <a href="#" className="opacity-70 hover:opacity-100 transition-opacity"><img src={new URL("../../assets/images/facebook.png", import.meta.url).href} alt="Facebook" className="w-6 h-6" /></a>
+          <a href="#" className="opacity-70 hover:opacity-100 transition-opacity"><img src={new URL("../../assets/images/insta.png", import.meta.url).href} alt="Instagram" className="w-6 h-6" /></a>
+          <a href="#" className="opacity-70 hover:opacity-100 transition-opacity"><img src={new URL("../../assets/images/twiter.png", import.meta.url).href} alt="Twitter" className="w-6 h-6" /></a>
           <a href="#" className="text-text-muted hover:text-white transition-colors"><Youtube size={24} /></a>
         </div>
 

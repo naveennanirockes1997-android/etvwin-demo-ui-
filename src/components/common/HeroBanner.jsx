@@ -14,7 +14,7 @@ const HeroBanner = ({ item, isLoading }) => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src={item.movie_banner || item.backdrop || item.banner || item.cover_image || "/src/assets/images/banner.png"} 
+          src={item.movie_banner || item.backdrop || item.banner || item.cover_image || new URL("../../assets/images/banner.png", import.meta.url).href} 
           alt={item.title || item.name}
           className="w-full h-full object-cover"
         />
