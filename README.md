@@ -1,16 +1,85 @@
-# React + Vite
+# ETV WIN | Premium OTT UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, modern OTT (Over-The-Top) streaming platform UI built with **React 19** and **Vite**. This project replicates the premium experience of a streaming service like ETV Win, featuring a seamless user interface, responsive design, and dynamic content integration.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Experience the UI here: [**ETV WIN Clone Live**](https://naveennanirockes1997-android.github.io/etv-win-ui)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🏠 Dynamic Home Page**: Stunning Hero banners with organized horizontal rails (Trending, Top Rated, Recent).
+- **🍿 Content Discovery**: Browse content by categories and genres with smooth transitions.
+- **🔍 Advanced Search**: Real-time search with filtering options (Year, Rating, Sort functionality).
+- **🎬 Movie Details**: Comprehensive details page featuring synopses, ratings, and release info.
+- **📱 Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile screens.
+- **⚡ Performance First**: Lazy loading of routes for optimized initial page loads.
+- **🎥 Video Player**: Integrated video playback interface for a complete streaming experience.
+- **🏆 Premium UI/UX**: Built with Tailwind CSS for glassmorphism effects and a sleek dark theme.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 7](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 3](https://tailwindcss.com/)
+- **Navigation**: [React Router 7](https://reactrouter.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Data Fetching**: [Axios](https://axios-http.com/)
+- **API**: Integrated with Studio Ghibli API for dynamic demo content.
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/         # Reusable UI components (Cards, Loaders, Common)
+├── layouts/            # Page layouts and wrappers
+├── pages/              # Main page modules (Home, Search, Details, etc.)
+├── services/           # API integration and data handling
+├── hooks/              # Custom React hooks
+├── utils/              # Helper functions and constants
+└── assets/             # Static assets (images, icons)
+```
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/naveennanirockes1997-android/etv-win-ui.git
+   cd etv-win-ui
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🚢 Deployment
+
+The project is configured for automated deployment to **GitHub Pages**.
+
+- **Build Command**: `npm run build`
+- **Deploy Command**: `npm run deploy`
+
+## 👤 Author
+
+**Naveen Vasamsetti**
+
+- GitHub: [@naveennanirockes1997-android](https://github.com/naveennanirockes1997-android)
+- Role: MERN Stack Developer
+
+## 📜 License
+
+This project is for educational purposes. Content provided by the Studio Ghibli API.
