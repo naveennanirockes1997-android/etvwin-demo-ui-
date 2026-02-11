@@ -1,7 +1,7 @@
 import React, { lazy } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import { HashRouter } from "react-router-dom";
+
 
 
 // Lazy load pages for performance
