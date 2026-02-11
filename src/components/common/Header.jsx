@@ -36,7 +36,7 @@ const Header = () => {
         {/* Left Section: Logo & Desktop Nav */}
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center">
-            <img src="/src/assets/images/win-logo.png" alt="ETV WIN" className="h-8 md:h-12 w-auto" />
+            <img src={new URL("../../assets/images/win-logo.png", import.meta.url).href} alt="ETV WIN" className="h-8 md:h-12 w-auto" />
           </Link>
           
           <nav className="hidden lg:flex items-center gap-6">
@@ -79,7 +79,7 @@ const Header = () => {
             </button>
             <button className="hidden sm:flex items-center gap-2 text-text-muted hover:text-white">
               <div className="w-8 h-8 rounded-md bg-zinc-800 flex items-center justify-center border border-white/10 overflow-hidden">
-                <img src="/src/assets/images/profile-img.png" alt="Profile" className="w-full h-full object-cover" />
+                <img src={new URL("../../assets/images/profile-img.png", import.meta.url).href} alt="Profile" className="w-full h-full object-cover" />
               </div>
             </button>
             <button 

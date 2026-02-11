@@ -13,7 +13,7 @@ const ContentCard = ({ item }) => {
     >
       <Link to={`/movie/${item.id}`} className="block w-full h-full">
         <img 
-          src={item.thumbnail || item.image || item.poster || item.cover_image || `/src/assets/images/vertical${(String(item.id).split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) % 9) + 1}.png`} 
+          src={item.thumbnail || item.image || item.poster || item.cover_image || new URL(`../../assets/images/vertical${(String(item.id).split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) % 9) + 1}.png`, import.meta.url).href}
           alt={item.title || item.name}
           className="w-full h-full object-cover rounded-md transition-transform duration-300 group-hover:scale-105 group-hover:brightness-50"
           loading="lazy"
