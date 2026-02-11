@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d dist",
+    "homepage": "https://naveennanirockes1997-android.github.io/etv-win-ui"
+
   },
   "dependencies": {
     "axios": "^1.13.4",

@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/etv-win-ui/",
+  base:"//naveennanirockes1997-android.github.io/etvwin-demo-ui-/",
   plugins: [react()],
   server: {
     proxy: {
